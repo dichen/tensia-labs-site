@@ -4,6 +4,9 @@ description: "A short introduction to Tensia Labs and the work we do."
 draft: false
 ---
 
-Tensia Labs builds practical tools for research and product teams.
+## Tensia Labs
 
-This page is markdown-driven so it is easy to update without touching layout code.
+At Tensia Labs we are a team of experienced engieners who build creative engineering solutions for electronics and semiconductor product design, test and manufacturing.
+
+-------
+
