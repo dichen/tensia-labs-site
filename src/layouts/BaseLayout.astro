@@ -12,12 +12,14 @@ const projectEntries = (await getCollection("projects"))
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <title>{title}</title>
   </head>
   <body class="min-h-screen bg-slate-100 text-slate-900 antialiased">
     <header class="border-b border-slate-200">
       <nav class="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
-        <a class="font-mono font-bold text-lg tracking-tight" href="/">
+        <a class="flex items-center gap-2 font-mono font-bold text-lg tracking-tight" href="/">
+          <img src="/logo.svg" alt="Tensia Labs" class="h-8 w-8" />
           <span class="text-blue-900">Tensia</span><span class="text-slate-600">Labs</span>
         </a>
         <div class="flex items-center gap-4 text-sm">
