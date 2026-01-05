@@ -17,12 +17,12 @@ const projectEntries = (await getCollection("projects"))
   </head>
   <body class="min-h-screen bg-slate-100 text-slate-900 antialiased">
     <header class="border-b border-slate-200">
-      <nav class="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
+      <nav class="mx-auto flex max-w-5xl flex-col items-start gap-3 px-4 py-4 sm:flex-row sm:items-center sm:justify-between">
         <a class="flex items-center gap-2 font-mono font-bold text-lg tracking-tight" href="/">
           <img src="/logo.svg" alt="Tensia Labs" class="h-8 w-8" />
           <span class="text-blue-900">Tensia</span><span class="text-slate-600">Labs</span>
         </a>
-        <div class="flex items-center gap-4 text-sm">
+        <div class="flex flex-wrap items-center gap-4 text-sm sm:flex-nowrap">
           <div class="group relative">
             <a class="hover:underline focus-visible:underline" href="/projects">Projects</a>
             <div class="absolute left-0 top-full z-10 mt-0 w-44 rounded-md border border-slate-200 bg-white py-2 shadow-lg opacity-0 invisible translate-y-1 pointer-events-none transition group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:pointer-events-auto group-focus-within:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:pointer-events-auto">
