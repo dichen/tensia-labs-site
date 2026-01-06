@@ -8,13 +8,4 @@ draft: false
 
 Tensia Labs builds software foundations that let engineers visualize, control, and trust real-time systems—across web, desktop, and embedded environments.
 
-Modern engineering systems generate real-time data, but most tools were never designed to display it accurately or reliably.
-
-[Tensia Instruments](/product) provides hardware-faithful UI components including
-* seven-segment displays
-* LED Indicators
-* Analog gauges
-* switches
-* Integrated Control panels
-* Built for live telemetry and instrumentation automation workflows.
-
+[Tensia Instruments](/product) is a real-time web HMI runtime and signal interface, designed to give industrial teams WPF/Qt-like reliability on the web—complete with buffering/replay, deterministic updates, and safe two-way control—plus a focused set of industrial UI components and an optional panel builder.
